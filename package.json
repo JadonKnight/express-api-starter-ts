@@ -19,11 +19,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@godaddy/terminus": "^4.12.1",
     "cors": "^2.8.5",
     "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "helmet": "^7.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
